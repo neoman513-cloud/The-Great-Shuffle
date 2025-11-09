@@ -9,18 +9,6 @@ THE GREAT SHUFFLE
 
 3) inside the kernel that part is being reshuffled multiple times for batches
 
-4) This is my own Hand-Made project
-
-This program searches for Bitcoin Puzzles on any range
-
-THIS IS PURE TRUE UNBIASED RANDOM, with real speed, not fake
-
-it uses a Cuda specialized random distribution that is Curand + CPU crypto secure random combined and millions of threads, no overlaps
-
-it has a very good random distribution that is carefully tested
-
-tough the range is huge, but with a good GPU hardware this program can be very useful
-
 Run (dont include puzzle number in the command, its just for info):
 
 `main.exe 100000 1fffff 29a78213caa9eea824acf08022ab9dfc83414f56` - puzzle 21\
