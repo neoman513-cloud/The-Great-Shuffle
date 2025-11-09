@@ -234,7 +234,7 @@ __global__ void start(const uint8_t* target, uint64_t seed, int total_threads, c
     
     // Batch convert to hash160
     jacobian_batch_to_hash160(result_jac_batch, hash160_batch);
-    
+
     // Check results
     #pragma unroll
     for (int i = 0; i < BATCH_SIZE; ++i) {
@@ -380,7 +380,7 @@ bool run_with_quantum_data(const char* min, const char* max, const char* target,
         if (elapsed_since_print >= 1.0) {
             double current_kps = keys_per_kernel / kernel_time;
             
-            printf("\rKernels: %llu | Speed: %.2f MK/s | Total: %.2f B keys",
+            printf("\rShuffles: %llu | Speed: %.2f MK/s | Total: %.2f B keys",
                    (unsigned long long)kernel_count,
                    current_kps / 1000000.0,
                    total_keys_checked / 1000000000.0);
