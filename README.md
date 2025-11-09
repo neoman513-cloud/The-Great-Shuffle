@@ -1,5 +1,8 @@
 THE GREAT SHUFFLE
 
+<img width="259" height="194" alt="image" src="https://github.com/user-attachments/assets/805cec02-7ae7-4939-bbdb-05ea3bf48622" />
+
+
 1) the host side generates a Big Hex string of a length of (threads amount * 10) and shuffles it
 
 2) then each thread of GPU kernel gets a part of that Great Shuffle with an offset
